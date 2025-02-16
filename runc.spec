@@ -13,7 +13,7 @@ BuildRequires:	rpmbuild(macros) >= 2.009
 ExclusiveArch:	%go_arches
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_debugsource_packages	0
+%undefine	_debugsource_packages
 
 %description
 runc is a CLI tool for spawning and running containers on Linux
