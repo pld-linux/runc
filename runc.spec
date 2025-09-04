@@ -1,13 +1,13 @@
 Summary:	CLI tool for spawning and running containers
 Name:		runc
-Version:	1.2.6
+Version:	1.3.1
 Release:	1
 License:	Apache v2.0
 Group:		Applications
 Source0:	https://github.com/opencontainers/runc/archive/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	4f1f5a872c254ae92a2f7b72bd228b5a
+# Source0-md5:	77cedf35c0424b986f44588510e0ba53
 URL:		https://www.opencontainers.org/
-BuildRequires:	golang >= 1.22
+BuildRequires:	golang >= 1.23.0
 BuildRequires:	libseccomp-devel
 BuildRequires:	rpmbuild(macros) >= 2.009
 ExclusiveArch:	%go_arches
